@@ -1,0 +1,32 @@
+{
+  "name": "typeorm-azure-managed-identity-demo",
+  "version": "1.0.0",
+  "description": "This project demonstrate how we could use Azure Managed Identity in TypeORM to connect to Azure Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ssh.dev.azure.com:v3/hieunt29/typeorm-express/typeorm-express"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^4.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mssql": "^10.0.4",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mssql": "^9.1.5",
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
